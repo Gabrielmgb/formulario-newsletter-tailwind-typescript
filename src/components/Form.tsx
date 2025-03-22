@@ -66,7 +66,7 @@ const handleSubmit = (e: FormEvent) => {
           <small className=" text-xs text-red-500 mt-1">{errors?.agree}</small>
         )}
       </div>
-      <button className="bg-slate-600 hover:bg-slate-500 font-medium text-sm py-2 px-4 rounded-lg text-white cursor-pointer duration-300">Cadastrar</button>
+      <button className="bg-slate-500 hover:bg-slate-900 font-medium text-sm py-2 px-4 rounded-lg text-white cursor-pointer duration-400">Cadastrar</button>
     </form>
   );
 };
